@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "https://albertlin0327.github.io/static/css/main.e16032d7.chunk.css",
+    "main.js": "https://albertlin0327.github.io/static/js/main.f68abb5f.chunk.js",
+    "main.js.map": "https://albertlin0327.github.io/static/js/main.f68abb5f.chunk.js.map",
+    "runtime-main.js": "https://albertlin0327.github.io/static/js/runtime-main.5be2cc22.js",
+    "runtime-main.js.map": "https://albertlin0327.github.io/static/js/runtime-main.5be2cc22.js.map",
+    "static/css/2.52bc9db8.chunk.css": "https://albertlin0327.github.io/static/css/2.52bc9db8.chunk.css",
+    "static/js/2.f9726e1c.chunk.js": "https://albertlin0327.github.io/static/js/2.f9726e1c.chunk.js",
+    "static/js/2.f9726e1c.chunk.js.map": "https://albertlin0327.github.io/static/js/2.f9726e1c.chunk.js.map",
+    "index.html": "https://albertlin0327.github.io/index.html",
+    "precache-manifest.a47dab91b15fe9656ae6f2d515317f45.js": "https://albertlin0327.github.io/precache-manifest.a47dab91b15fe9656ae6f2d515317f45.js",
+    "service-worker.js": "https://albertlin0327.github.io/service-worker.js",
+    "static/css/2.52bc9db8.chunk.css.map": "https://albertlin0327.github.io/static/css/2.52bc9db8.chunk.css.map",
+    "static/css/main.e16032d7.chunk.css.map": "https://albertlin0327.github.io/static/css/main.e16032d7.chunk.css.map",
+    "static/js/2.f9726e1c.chunk.js.LICENSE.txt": "https://albertlin0327.github.io/static/js/2.f9726e1c.chunk.js.LICENSE.txt",
+    "static/media/Albert_Lin.jpg": "https://albertlin0327.github.io/static/media/Albert_Lin.761e89ae.jpg",
+    "static/media/katex.min.css": "https://albertlin0327.github.io/static/media/KaTeX_Typewriter-Regular.b636fa48.woff",
+    "static/media/resume.pdf": "https://albertlin0327.github.io/static/media/resume.a941776c.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5be2cc22.js",
+    "static/css/2.52bc9db8.chunk.css",
+    "static/js/2.f9726e1c.chunk.js",
+    "static/css/main.e16032d7.chunk.css",
+    "static/js/main.f68abb5f.chunk.js"
+  ]
+}
