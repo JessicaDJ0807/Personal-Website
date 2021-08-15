@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83414b4eb2dac60d429267877a50a6c8",
+    "revision": "33635401457949517a4528a0a9d8175b",
     "url": "https://albertlin0327.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://albertlin0327.github.io/static/css/2.52bc9db8.chunk.css"
   },
   {
-    "revision": "b70f6527b62511ac40f3",
+    "revision": "af130223a4845e494efb",
     "url": "https://albertlin0327.github.io/static/css/main.e16032d7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://albertlin0327.github.io/static/js/2.f9726e1c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b70f6527b62511ac40f3",
-    "url": "https://albertlin0327.github.io/static/js/main.f68abb5f.chunk.js"
+    "revision": "af130223a4845e494efb",
+    "url": "https://albertlin0327.github.io/static/js/main.616d816e.chunk.js"
   },
   {
     "revision": "991e806bef6e8a7d257b",
