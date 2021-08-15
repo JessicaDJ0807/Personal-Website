@@ -81,8 +81,6 @@ const App = () => {
         <div>
             <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
                 {navBar.show && <Navbar ref={titleRef} />}
-                {/* </BrowserRouter> */}
-                {/* <HashRouter> */}
                 <Route
                     exact
                     path="/"
@@ -91,7 +89,6 @@ const App = () => {
 
                 <Route path="/blog" component={Blog} />
                 <Route path="/blog/:id" component={BlogPost} />
-                {/* </HashRouter> */}
 
                 <Footer>
                     {getInTouch.show && (
