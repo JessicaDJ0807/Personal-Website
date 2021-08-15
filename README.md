@@ -84,7 +84,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
      npm run deploy
     ```
 
-    Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./custom-deployment.md) and [pages.js](./pages.js)
+    Or for deployment at \<username>.github.io, refer [custom-deployment.md](./custom-deployment.md) and [pages.js](./pages.js)
 
 9. Congrats your site is up and running. To see it live, visit:
 
