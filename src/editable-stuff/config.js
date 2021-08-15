@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-    gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+    gradientColors: "#4484ce, #a7cc7b, #E0BB78, #9b59b6, #CC95CC, #ecf0f1",
     firstName: "Albert",
     middleName: "Hsin-Kai",
     lastName: "Lin",
@@ -64,7 +64,12 @@ const repos = {
     heading: "Recent Projects",
     gitHubUsername: "AlbertLin0327", //i.e."johnDoe12Gh"
     reposLength: 0,
-    specificRepos: ["Least-Square-Monte-Carlo", "ItC_Python_Crawler"],
+    specificRepos: [
+        "Least-Square-Monte-Carlo",
+        "ItC_Python_Crawler",
+        "Personal-Website",
+        "Black-Scholes-Option",
+    ],
 };
 
 // Leadership SECTION
