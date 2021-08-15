@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 import {
     navBar,
     mainBody,
@@ -78,22 +78,32 @@ const App = () => {
     const titleRef = React.useRef();
 
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-            {navBar.show && <Navbar ref={titleRef} />}
-            <Route path="/" exact component={() => <Home ref={titleRef} />} />
-            {<Route path="/blog" exact component={Blog} />}
-            {<Route path="/blog/:id" component={BlogPost} />}
+        <div>
+            <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+                {navBar.show && <Navbar ref={titleRef} />}
+                {/* </BrowserRouter> */}
+                {/* <HashRouter> */}
+                <Route
+                    exact
+                    path="/"
+                    component={() => <Home ref={titleRef} />}
+                />
 
-            <Footer>
-                {getInTouch.show && (
-                    <GetInTouch
-                        heading={getInTouch.heading}
-                        message={getInTouch.message}
-                        email={getInTouch.email}
-                    />
-                )}
-            </Footer>
-        </BrowserRouter>
+                <Route path="/blog" component={Blog} />
+                <Route path="/blog/:id" component={BlogPost} />
+                {/* </HashRouter> */}
+
+                <Footer>
+                    {getInTouch.show && (
+                        <GetInTouch
+                            heading={getInTouch.heading}
+                            message={getInTouch.message}
+                            email={getInTouch.email}
+                        />
+                    )}
+                </Footer>
+            </BrowserRouter>
+        </div>
     );
 };
 
