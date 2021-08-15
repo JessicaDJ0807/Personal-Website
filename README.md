@@ -7,7 +7,7 @@
 ![Issue](https://img.shields.io/github/issues/AlbertLin0327/Personal-Website)
 ![Commit](https://img.shields.io/github/last-commit/AlbertLin0327/Personal-Website)
 
-#### This repository is forked from hashirshoaeb and modification are made to fit personal need.
+#### This repository is forked from [hashirshoaeb](https://github.com/hashirshoaeb/home) and modification are made to fit personal need.
 
 ## Technology Stack 🛠
 
