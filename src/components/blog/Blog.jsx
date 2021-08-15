@@ -2,13 +2,10 @@ import React from "react";
 import { BlogBuilder } from "./BlogBuilder";
 import bloglist from "../../editable-stuff/blog";
 import { Link } from "react-router-dom";
-
 const Blog = (props) => {
     return (
-        <div className="container-lg mt-5 bg-blue">
-            <h1 className="display-4 text-center" style={{ paddingTop: "2%" }}>
-                Blogs
-            </h1>
+        <div className="container-lg mt-5 bg-blue" id="BlogCardBox">
+            <h1 className="text-center">Blogs</h1>
             {bloglist.map((value, index) => {
                 return (
                     <BlogCard
@@ -23,7 +20,7 @@ const Blog = (props) => {
     );
 };
 
-const BlogCard = ({ index, title, image, description }) => {
+const BlogCard = ({ index, title, description }) => {
     return (
         <div className="m-5">
             <div className="">
