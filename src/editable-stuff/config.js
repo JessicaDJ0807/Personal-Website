@@ -50,7 +50,7 @@ const about = {
     imageLink: require("../editable-stuff/Albert_Lin.jpg"),
     imageSize: 375,
     message:
-        "Hello, I am Albert Lin, an enthusiastic undegraduate studies in National Taiwan University. I double major in Computer Science and Finance double, minor in Mathematics and also participate in the Creativity and Entrepreneurship Program. I am also a member of the CLLab and interested in Machine Learning and Mathematical Finance.",
+        "Hello, I am Albert Lin and I am currently studying National Taiwan Univesity. I major in Computer Science, double major in Finance and minor in Mathematics. I also participate in Creativity and Entrepreneurship Program. Last but not the least, I am a member of Computational Learning Lab directed by professor Hsuan-Tein Lin.",
     resume: require("../editable-stuff/resume.pdf"),
 };
 
