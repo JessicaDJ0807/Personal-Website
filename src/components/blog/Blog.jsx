@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const Blog = (props) => {
     return (
         <div className="container-lg mt-5 bg-blue" id="BlogCardBox">
-            <h1 className="text-center">Blogs</h1>
+            <h1 className="text-center" style={{ paddingTop: "1rem" }}>
+                Blogs
+            </h1>
             {bloglist.map((value, index) => {
                 return (
                     <BlogCard

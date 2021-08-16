@@ -10,7 +10,7 @@ const BlogPost = ({ match }) => {
     return (
         <div className="container-lg mt-5">
             {post && (
-                <div>
+                <div style={{ paddingTop: "1rem" }}>
                     <h4 className="display-4 text-center">{post.title}</h4>
                     {/* <img className="img-fluid mb-2" src={post.image} alt={post.title} /> */}
                     {post.getBlog()}
