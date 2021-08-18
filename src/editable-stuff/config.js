@@ -9,7 +9,7 @@ const mainBody = {
     firstName: "Albert",
     middleName: "Hsin-Kai",
     lastName: "Lin",
-    message: " Enthusiastic Undergraduate who strive for greatness. ",
+    message: " Enthusiastic Undergraduate who strives for greatness. ",
     icons: [
         {
             image: "fa-github",
@@ -50,7 +50,7 @@ const about = {
     imageLink: require("../editable-stuff/Albert_Lin.jpg"),
     imageSize: 375,
     message:
-        "Hello, I am Albert Lin and I am currently studying National Taiwan Univesity. I major in Computer Science, double major in Finance and minor in Mathematics. I also participate in Creativity and Entrepreneurship Program. Last but not the least, I am a member of Computational Learning Lab directed by professor Hsuan-Tein Lin.",
+        "Hello, I am Albert Lin. And I currently study at National Taiwan University. I major in Computer Science, double major in Finance and minor in Mathematics. I also participate in Creativity and Entrepreneurship Program. Last but not least, I am a member of Computational Learning Lab directed by professor Hsuan-Tien Lin.",
     resume: require("../editable-stuff/resume.pdf"),
 };
 
